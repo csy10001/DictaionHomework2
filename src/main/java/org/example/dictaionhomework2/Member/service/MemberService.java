@@ -1,11 +1,10 @@
-package org.example.dictaionhomework2.service;
+package org.example.dictaionhomework2.Member.service;
 
-import jakarta.persistence.Id;
 import lombok.RequiredArgsConstructor;
-import org.example.dictaionhomework2.dto.MemberRequest;
-import org.example.dictaionhomework2.dto.MemberResponse;
-import org.example.dictaionhomework2.entity.Member;
-import org.example.dictaionhomework2.repository.MemberRepository;
+import org.example.dictaionhomework2.Member.dto.MemberRequest;
+import org.example.dictaionhomework2.Member.dto.MemberResponse;
+import org.example.dictaionhomework2.Member.entity.Member;
+import org.example.dictaionhomework2.Member.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

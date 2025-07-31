@@ -1,4 +1,4 @@
-package org.example.dictaionhomework2.dto;
+package org.example.dictaionhomework2.Member.dto;
 
 import lombok.Getter;
 

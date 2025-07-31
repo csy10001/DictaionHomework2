@@ -1,9 +1,9 @@
-package org.example.dictaionhomework2.controller;
+package org.example.dictaionhomework2.Member.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.example.dictaionhomework2.dto.MemberRequest;
-import org.example.dictaionhomework2.dto.MemberResponse;
-import org.example.dictaionhomework2.service.MemberService;
+import org.example.dictaionhomework2.Member.dto.MemberRequest;
+import org.example.dictaionhomework2.Member.dto.MemberResponse;
+import org.example.dictaionhomework2.Member.service.MemberService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
